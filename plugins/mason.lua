@@ -5,6 +5,7 @@ return {
     "williamboman/mason-lspconfig.nvim",
     -- overrides `require("mason-lspconfig").setup(...)`
     opts = {
+      ensure_installed = { "lua_ls", "rust_analyzer" },
       -- ensure_installed = { "lua_ls" },
     },
   },
